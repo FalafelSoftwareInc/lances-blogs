@@ -1,0 +1,114 @@
+{
+    "title":"Skills Inventory",
+    "sections":
+    [
+        {
+            "header":"Personal Info",
+            "elements":
+            [
+                {
+                    "type":"entry",
+                    "caption":"First Name",
+                    "placeholder":"Enter your first name."
+                },
+                {
+                    "type":"entry",
+                    "caption":"Last Name",
+                    "placeholder":"Enter your last name."
+                },
+                {
+                    "type":"entry",
+                    "caption":"contact",
+                    "placeholder":"How may we contact you?"
+                }
+            ]
+        },
+        {
+            "header":"Employment History",
+            "elements":
+            [
+                {
+                    "type":"boolean",
+                    "caption":"Are you currently employed?",
+                    "value":false
+                },
+                {
+                    "type":"datetime",
+                    "caption":"Start Date",
+                    "value":"02/21/2014 13:00:00"    
+
+                }
+
+            ]
+        },
+        {
+            "header":"Skills",
+            "elements":
+            [
+                {
+                    "title":"Select your skills",
+                    "type":"root",
+                    "group":"Skills",
+                    "sections":
+                    [
+                        {
+                            "header":"Skills",
+                            "footer":"Choose all that apply.",
+                            "elements":
+                            [
+                                {
+                                    "type":"checkbox",
+                                    "group":"Skills",
+                                    "caption":"Xamarin.iOS"
+                                },
+                                {
+                                    "type":"checkbox",
+                                    "group":"Skills",
+                                    "caption":"Xamarin.Android"
+                                }, 
+                                {
+                                    "type":"checkbox",
+                                    "group":"Skills",
+                                    "caption":"Telerik AppBuilder"
+                                },
+                                {
+                                    "type":"checkbox",
+                                    "group":"Skills",
+                                    "caption":"Objective-C"
+                                },
+                                {
+                                    "type":"checkbox",
+                                    "group":"Skills",
+                                    "caption":"Java"
+                                }, 
+                                {
+                                    "type":"checkbox",
+                                    "group":"Skills",
+                                    "caption":"SmartBear TestComplete"
+                                },
+                                {
+                                    "type":"checkbox",
+                                    "group":"Skills",
+                                    "caption":"Telerik Sitefinity"
+                                }
+                            
+                            ]
+                        }
+                    ]
+                },
+            ]
+        },
+        {
+            "elements":
+            [
+                {
+                    "type":"string",
+                    "value":"Send to Falafel"
+                }
+            ]
+
+        }
+    ]
+
+
+}
