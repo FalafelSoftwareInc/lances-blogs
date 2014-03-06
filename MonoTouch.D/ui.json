@@ -12,6 +12,7 @@
                     "placeholder":"Enter your first name."
                 },
                 {
+					"id":"lastname",
                     "type":"entry",
                     "caption":"Last Name",
                     "placeholder":"Enter your last name."
@@ -95,7 +96,7 @@
                             ]
                         }
                     ]
-                },
+                }
             ]
         },
         {
@@ -103,7 +104,9 @@
             [
                 {
                     "type":"string",
-                    "value":"Send to Falafel"
+                    "style":"value1",
+                    "caption":"Send to Falafel",
+                    "ontap":"MTDialogBlog.AppDelegate.OnTap"
                 }
             ]
 
